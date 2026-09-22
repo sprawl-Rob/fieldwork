@@ -1,0 +1,24 @@
+# Credentials and personal/runtime data
+.env
+.env.*
+!.env.example
+data/
+*.sqlite*
+*.db
+*.eml
+*.msg
+*.mbox
+*.pst
+*.ost
+*.pem
+*.key
+# Local environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.DS_Store
+*.log

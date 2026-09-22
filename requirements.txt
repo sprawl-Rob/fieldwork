@@ -1,0 +1,9 @@
+fastapi==0.141.1
+uvicorn==0.53.0
+httpx==0.28.1
+certifi==2026.7.22
+beautifulsoup4==4.15.0
+python-multipart==0.0.32
+python-dotenv==1.2.3
+extract-msg==0.56.1
+pytest==9.1.1

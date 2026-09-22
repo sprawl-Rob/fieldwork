@@ -1,0 +1,161 @@
+{
+  "name": "Your name",
+  "background": "Add a concise summary of your professional experience in Search criteria before using AI scoring.",
+  "target_titles": [
+    "CTO",
+    "Chief Technology Officer",
+    "CPTO",
+    "Chief Product and Technology Officer",
+    "VP Technology",
+    "VP Engineering",
+    "Vice President of Engineering",
+    "Head of Technology",
+    "Head of Engineering",
+    "Director of Technology",
+    "Chief Information Officer"
+  ],
+  "excluded_industries": [
+    "cryptocurrency",
+    "gambling",
+    "financial services",
+    "healthcare",
+    "biotech",
+    "pharmaceuticals",
+    "medical devices",
+    "health-focused nonprofits"
+  ],
+  "industry_patterns": [
+    "crypto",
+    "blockchain",
+    "web3",
+    "casino",
+    "gambling",
+    "sportsbook",
+    "fintech",
+    "bank",
+    "banking",
+    "insurance",
+    "financial services",
+    "capital markets",
+    "healthcare",
+    "health care",
+    "health",
+    "medical",
+    "hospital",
+    "clinical",
+    "biotech",
+    "pharma",
+    "therapeutics",
+    "cryptocurrency",
+    "credit union",
+    "mortgage",
+    "investment",
+    "investments",
+    "financial",
+    "oncology",
+    "cancer"
+  ],
+  "preferred_organizations": [
+    "nonprofit",
+    "non-profit",
+    "small business",
+    "smaller organization",
+    "technology",
+    "innovation"
+  ],
+  "deprioritized": [
+    "Fractional, interim, contract and part-time employment",
+    "Narrow enterprise hierarchy with little technology ownership",
+    "Sales-first roles without technology leadership"
+  ],
+  "role_notes": "Full-time preferred. Both product/engineering leadership and internal technology strategy, systems, vendors and modernization. Prefer broad ownership, mission impact and practical innovation. Company size is a preference, not a hard exclusion. Apply industry exclusions to the employer's business, not its customers. Past experience is not a preference to return to that industry. Do not infer a completed degree or an active security clearance.",
+  "positive_examples": [
+    "CTO of a non-medical nonprofit",
+    "CTO of a smaller company or organization",
+    "Technology leadership with real strategic and delivery ownership"
+  ],
+  "negative_examples": [
+    "Leadership at cryptocurrency, gambling, financial services or medical organizations"
+  ],
+  "home_city": "Boston, MA",
+  "home_lat": 42.3601,
+  "home_lon": -71.0589,
+  "radius_miles": 25,
+  "remote_preferred": true,
+  "recency_days": 45,
+  "lost_after_days": 60,
+  "local_towns": [
+    "Boston",
+    "Cambridge",
+    "Somerville",
+    "Brookline",
+    "Newton",
+    "Watertown",
+    "Medford",
+    "Malden",
+    "Quincy"
+  ],
+  "watchlist": [
+    {
+      "company": "Wikimedia Foundation",
+      "provider": "greenhouse",
+      "slug": "wikimedia",
+      "industry": "nonprofit",
+      "size": "unknown"
+    },
+    {
+      "company": "Code.org",
+      "provider": "greenhouse",
+      "slug": "codeorg",
+      "industry": "nonprofit",
+      "size": "unknown"
+    },
+    {
+      "company": "Khan Academy",
+      "provider": "greenhouse",
+      "slug": "khanacademy",
+      "industry": "nonprofit",
+      "size": "unknown"
+    },
+    {
+      "company": "Mozilla",
+      "provider": "greenhouse",
+      "slug": "mozilla",
+      "industry": "technology",
+      "size": "unknown"
+    },
+    {
+      "company": "DonorsChoose",
+      "provider": "greenhouse",
+      "slug": "donorschoose",
+      "industry": "nonprofit",
+      "size": "unknown"
+    },
+    {
+      "company": "GiveDirectly",
+      "provider": "greenhouse",
+      "slug": "givedirectly",
+      "industry": "nonprofit",
+      "size": "unknown"
+    }
+  ],
+  "sources": {
+    "watchlist": true,
+    "remotive": true,
+    "remoteok": true,
+    "muse": true,
+    "linkedin": true,
+    "builtin": false,
+    "adzuna": false
+  },
+  "max_pages": 3,
+  "verify_limit": 40,
+  "secondary_updates_dir": "",
+  "cover_letter_dir": "",
+  "calibration_note": "Starter watchlist is editable and is not an endorsement or evidence of a current suitable opening. Location names are an approximate shortlist; exact addresses need confirmation.",
+  "title_exclusions": [
+    "course director",
+    "account executive",
+    "sales engineer"
+  ]
+}
