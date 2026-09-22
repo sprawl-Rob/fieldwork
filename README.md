@@ -4,7 +4,7 @@ A local-first job-search and application-tracking app. Runs on your Mac at **htt
 
 ## Open the app
 
-Double-click **Start Fieldwork.command** in this folder. A Terminal window runs the app and your browser opens. Leave that Terminal window running. Press Control-C there to stop it. Your records survive restarts.
+From a terminal in this folder, run `zsh "Start Fieldwork.command"`. To enable double-click launching on macOS, first run `chmod +x "Start Fieldwork.command"`, then double-click it. A Terminal window runs the app and your browser opens. Leave that Terminal window running. Press Control-C there to stop it. Your records survive restarts.
 
 The launcher creates a local virtual environment and installs `requirements.txt` on first launch. Python 3.10 or later is required.
 
@@ -74,7 +74,7 @@ Keys are stored separately in a local `.env` file with owner-only permissions an
 
 Model catalogs indicate account availability, not guaranteed compatibility with every feature. Known image/audio/embedding model families are excluded from these text-task selectors. Unsupported structured-tool or web-search requests surface the provider's error and never silently switch to a different model. Failure of one provider's catalog does not hide the other provider's models.
 
-The selected provider receives the professional profile and job descriptions for scoring. Email contents are sent only when you explicitly classify pasted text or uploaded files. No inbox is connected. Paid requests use your API account; no cost estimate is presented as a guarantee.
+The selected provider receives the professional profile and job descriptions for scoring. Email contents are sent only when you explicitly classify pasted text, uploaded files, or selected messages from the optional Microsoft 365 connection. Paid requests use your API account; no cost estimate is presented as a guarantee.
 
 Both integrations validate forced structured tool output against the same schema. OpenAI uses the Responses API with response storage disabled. Deep search accepts only URLs observed in search sources/citations and then independently checks those pages. Anthropic search continuations are bounded; OpenAI search has a tool-call cap.
 
@@ -136,15 +136,15 @@ Data locations:
 
 The automated suite covers matching and exclusions, status ordering and explicit corrections, duplicate imports, ambiguous matches, placeholder folding, merge separation, verification failures, protected user facts, schema failures, local request protections and database descriptor stability over 1,000 API requests.
 
-Run from this directory using the installed workspace environment:
+Run from this directory after installing dependencies:
 
 ```sh
-../../.venv/bin/python -m pytest tests -q
+.venv/bin/python -m pytest tests -q
 ```
 
 Or use `.venv/bin/python` if the launcher installed a standalone environment here.
 
-The application was also checked in the browser for search, filtering, criteria editing, reports, posting details and clipboard drafting briefs. The initial database contains real discovery results, not sample jobs. Discovery coverage is bounded by enabled sources and page limits; it is not an exhaustive search of every employer.
+The application was also checked in the browser for search, filtering, criteria editing, reports, posting details and clipboard drafting briefs. A fresh installation starts with an empty local database. Discovery coverage is bounded by enabled sources and page limits; it is not an exhaustive search of every employer.
 
 ## Microsoft 365 inbox reconciliation
 
